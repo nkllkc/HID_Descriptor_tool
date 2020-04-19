@@ -95,7 +95,7 @@ def ConstractStru(mainItem,value):
             Outputs.append('//Unit_Exponent:'+glStat['Unit_Exponent'])
 
 fileIn     = "DscInput.rptDsc"
-fileOut    = open("rptStructureDef.h",'w')
+fileOut    = open("output/rptStructureDef.h",'w')
 lines      = open(fileIn).readlines()
 glStat     = {
     'Unit':'Unit_None',

@@ -10,6 +10,7 @@ def Byte_Size(x):
 		return 2
 	if x>=-0x7FFFFFFF-1 and x<=0x7FFFFFFF:
 		return 4 #0b11 represents 4
+
 def u_Byte_Size(x):
 	'''ByteSize for Short Items
 	return 0,1,2,or4'''
@@ -68,7 +69,7 @@ def MatchDefine(defSets,findFunc):
 			return defDict
 	return None
 fileIn="DscInput.rptDsc"
-fileOut=open("Hex.out",'w')
+fileOut=open("output/Hex.out",'w')
 lines=open(fileIn).readlines()
 bytecount=0
 usagePage=None

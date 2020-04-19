@@ -37,7 +37,7 @@ def valueByHex(item, len, hexd):
 		return hexd
 	return hexd
 fileIn = "Hex_Input.c"
-fileOut= open("DscOutput.rptDsc",'w')
+fileOut= open("output/DscOutput.rptDsc",'w')
 lines  = open(fileIn).readlines()
 tabcnt = 0
 for line in lines:
